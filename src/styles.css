@@ -90,7 +90,7 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.2);  
     padding: 20px;
     border-radius: 20px;
 }
@@ -338,7 +338,7 @@ textarea {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(212, 175, 55, 0.1); /* Light gold background */
+    background-color: rgba(212, 175, 55, 0.1); 
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -381,13 +381,13 @@ textarea {
 /* Item Price */
 .cart-item p:nth-child(2) {
     font-size: 1.2rem;
-    color: #b8860b; /* Darker gold */
+    color: #b8860b;  
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Remove Button */
 .cart-item button {
-    background-color: #d9534f; /* Red for remove */
+    background-color: #d9534f;  
     color: white;
     border: none;
     padding: 8px 16px;
@@ -399,7 +399,7 @@ textarea {
 }
 
 .cart-item button:hover {
-    background-color: #c9302c; /* Darker red */
+    background-color: #c9302c;  
 }
 
 /* Total Price */
@@ -413,7 +413,7 @@ textarea {
 
 /* Checkout Button */
 .cart button {
-    background-color: #d4af37; /* Gold */
+    background-color: #d4af37;  
     color: white;
     border: none;
     padding: 12px 20px;
@@ -425,7 +425,7 @@ textarea {
 }
 
 .cart button:hover {
-    background-color: #b8860b; /* Darker gold */
+    background-color: #b8860b;  
 }
 
 /* Checkout Alert */
