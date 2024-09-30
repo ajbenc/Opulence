@@ -445,7 +445,6 @@ textarea {
     margin-top: 200px;
 }
 
-/* Responsive adjustments for mobile */
 @media (max-width: 768px) {
     /* Navbar adjustments */
     nav {
@@ -456,14 +455,21 @@ textarea {
 
     nav ul {
         flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        margin-top: 10px;
+        width: auto;
+        padding: 0;
     }
 
     nav li {
         margin: 10px 0;
         font-size: 1.2rem;
+    }
+
+    .text-logo {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        margin-left: 10px;
     }
 
     /* Slogan adjustments */
@@ -473,11 +479,6 @@ textarea {
 
     .slogan-text .second-line {
         margin-left: 0; /* Remove indentation on smaller screens */
-    }
-
-    /* Reduce logo size */
-    .text-logo {
-        font-size: 1.5rem;
     }
 
     /* Reduce padding for sections */
@@ -495,26 +496,6 @@ textarea {
         height: 250px;
     }
 }
-
-@media (max-width: 480px) {
-    /* Further adjustments for very small screens */
-    .slogan-text {
-        font-size: 2rem;
-    }
-
-    .text-logo {
-        font-size: 1.2rem;
-    }
-
-    nav ul {
-        align-items: center;
-    }
-
-    nav li {
-        font-size: 1rem;
-    }
-}
-
 
 /* Adjust logo and nav for smaller screens */
 @media (max-width: 768px) {
