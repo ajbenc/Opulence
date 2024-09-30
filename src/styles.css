@@ -454,13 +454,16 @@ textarea {
     }
 
     nav ul {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         width: auto;
         padding: 0;
+        margin: 0;
+        justify-content: space-between;
     }
 
     nav li {
-        margin: 10px 0;
+        margin: 0 15px;
         font-size: 1.2rem;
     }
 
@@ -497,16 +500,20 @@ textarea {
     }
 }
 
+
 /* Adjust logo and nav for smaller screens */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         width: auto;
         padding: 0;
+        margin: 0;
+        justify-content: space-between;
     }
 
     nav li {
-        margin: 10px 0;
+        margin: 0 15px;
         font-size: 1.2rem;
     }
 
